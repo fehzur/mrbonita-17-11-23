@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+}
+body h1{
+    background-image: linear-gradient(to left, red, rgb(0, 128, 79), blue);
+    -webkit-background-clip: text;
+    background-clip: text;
+
+    color: transparent;
+}
+body p{
+    padding: 25px 0;
+    color: #555;
+    text-indent: 15px;
+}
